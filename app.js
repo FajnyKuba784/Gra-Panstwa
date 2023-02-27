@@ -70,7 +70,10 @@ var input = document.getElementById("input").value
                 document.getElementById("liczbas").innerHTML = "Przegrana .    Twój wynik to: "+wynik
                 
                 document.getElementById('button1').style.display = 'none'
-
+                const button = document.createElement("button")
+                button.innerHTML = "Restart"
+                button.setAttribute("onclick","rest()")
+                document.getElementById("info").appendChild(button)
             }
             
 }
