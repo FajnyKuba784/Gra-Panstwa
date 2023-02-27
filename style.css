@@ -1,0 +1,47 @@
+#body{
+    display: grid;
+    grid-template-columns: 20% 65% 15%;
+    grid-template-rows: 15vh 85vh;
+    grid-template-areas: 
+    "zycia zycia zycia"
+    "menu gra info";
+    margin: 0px;
+}
+#zycia{
+    grid-area: zycia;
+    background-color: rgb(65, 65, 65);
+    color: aliceblue;
+    
+}
+#menu{
+    grid-area: menu;
+    background-color: rgb(46, 46, 46);
+    
+    align-items: baseline;
+    justify-content: center;
+    overflow: auto;
+}
+#gra{
+    justify-content: center;
+    grid-area: gra;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+#info{
+    grid-area: info;
+    background-color: rgb(15, 15, 15);
+}
+#button{
+    
+    width: 75px ;
+    height: 75px;
+    cursor: pointer;
+}
+#liczbas{
+    color: white;
+}
