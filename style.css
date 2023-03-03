@@ -6,6 +6,8 @@
     "zycia zycia zycia"
     "menu gra info";
     margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 #zycia{
     grid-area: zycia;
